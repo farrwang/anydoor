@@ -1,0 +1,36 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "nodeJS静态资源仓库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangybg/anydoor.git"
+  },
+  "author": "wangybg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangybg/anydoor/issues"
+  },
+  "homepage": "https://github.com/wangybg/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {}
+}
