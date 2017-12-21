@@ -32,5 +32,8 @@
     "eslint-plugin-standard": "^3.0.1",
     "pre-commit": "^1.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11"
+  }
 }
