@@ -1,8 +1,9 @@
 {
-  "name": "anydoor",
+  "name": "wangybg-anydoor",
   "version": "1.0.0",
   "description": "nodeJS静态资源仓库",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin":"bin/anydoor",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
@@ -34,6 +35,7 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
-    "handlebars": "^4.0.11"
+    "handlebars": "^4.0.11",
+    "yargs": "^10.0.3"
   }
 }
