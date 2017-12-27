@@ -1,12 +1,12 @@
 # anydoor
 基于NodeJS静态资源服务器
 
-##安装
+## 安装
 ```
-npm i -g anydoor
+npm i -g wangybg-anydoor
 ```
 
-##使用方法
+## 使用方法
 
 ```
 anydoor #把当前文件夹作为静态资源服务器根目录

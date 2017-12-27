@@ -1,6 +1,6 @@
 {
   "name": "wangybg-anydoor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodeJS静态资源仓库",
   "main": "src/app.js",
   "bin":"bin/anydoor",
